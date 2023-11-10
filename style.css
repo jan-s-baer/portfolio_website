@@ -47,6 +47,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;  
   position: fixed;
+  width: 1200px;
 }
 
 .navigation-items {
@@ -71,6 +72,7 @@ nav {
 
 .about-me-container {
   display: flex;
+  margin-top: 100px;
 }
 
 .about-me-text-container {
