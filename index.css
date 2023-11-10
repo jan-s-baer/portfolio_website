@@ -1,0 +1,165 @@
+/*GLOBAL STYLES*/
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: normal;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+  
+    --border-radius: 12px;
+}    
+
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*NAVIGATION BAR*/
+
+nav {
+   /* height: 69px;
+    width: 100%;
+    top:0;
+    z-index: 2;
+    border-bottom: 1px solid seashell;
+    position: fixed;*/
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+   /* justify-content: space-between;
+    background-color: black; */
+    background-image: url(./resources/aurora.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto; 
+}
+
+.navigation-item a {
+    text-decoration: underline;
+    display: block;
+    color: seashell;
+    margin: 0 40px; 
+}
+
+.navigation-item a:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 700px) {
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+    }
+
+    header {
+        height: auto;
+    }
+}
+
+/*ABOUT ME SECTION*/
+
+.about-me-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-text-container {
+    margin-right: var(--spacing-3);
+}
+
+/*PROJECTS SECTION*/
+.projects-container {
+    display: flex;
+    justify-content: center;
+    /*background-image: url(./resources/pexels-photo-270404.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: auto; */
+}
+
+.project-title h3 {
+    display: inline;
+}
+
+details {
+    cursor: pointer;
+}
+
+/*SKILLS SECTION*/
+
+.skills-container {
+    width: 1000px;
+    margin: 50px auto 100px auto;
+    position: relative;
+}
+
+.skills-head {
+    text-align: center;
+    margin: 40px;
+}
+
+#skills-center-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills-fa-container {
+    display: block;
+}
+
+#skills-fa-container i {
+    flex-basis: auto;
+    margin-bottom: 20px;
+    font-size: 40px;
+    
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    margin-top: auto;
+    padding: var(--spacing-2) 0;
+    text-align: center;
+  }

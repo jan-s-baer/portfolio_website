@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <h1 id="logo">Jan Baer - Software Developer</h1>
+        <ul class="navigation-items">
+            <li class="navigation-item"><a href="#about-me">About Me</a></li>
+            <li class="navigation-item"><a href="#projects">Projects</a></li>
+            <li class="navigation-item"><a href="#skills">Skills</a></li>
+            <li class="navigation-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2>About Me</h2>
+                    <!--Add text here in p's-->
+                    <p>Hi! I'm Jan Baer, a software developer from Mainz, Germany.</p>
+                    <p>I started my programming journey in July 2023 and have progressed continiously ever since</p>
+                </div>
+                <!--Add professional headshot here-->
+                <img src="./resources/JanBaerBild.jpg" alt="a picture of Jan Baer, owner of this website" class="portrait">
+            </div>
+        </section>
+
+        <section id="projects" class="projects-container">
+            <div class="projects-list-container">
+                <h2>Projects</h2>
+            <!--Add projects here with details-->
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>This Website</h3>
+                    </summary>
+                    <img class="project-image" src="" alt="">
+                    <p class="project description">My first website</p>
+                </details>
+
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>Credit Card Check</h3>
+                    </summary>
+                    <img class="project-image" src="" alt="">
+
+                    <p class="project-description">Algorithm to check credit card number validation</p>
+                </details>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <h3 class="skills-head">Front End</h3>
+                <div id="skills-center-container">
+                    <div id="skills-fa-container">
+                     <details class="skills-details">
+                        <summary><i class="fa-brands fa-html5"></i></summary>
+                        <p>HTML5</p>
+                     </details>
+                    </div>
+                    <div id="skills-fa-container">
+                        <details class="skills-details">
+                            <summary><i class="fa-brands fa-css3-alt"></i></summary>
+                            <p>CSS</p>
+                        </details>
+                    </div>
+                    <div id="skills-fa-container">
+                        <details class="skills-details">
+                            <summary><i class="fa-brands fa-js"></i></summary>
+                            <p>JavaScript</p>
+                        </details>
+                    </div>
+                    <div id="skills-fa-container">
+                        <details class="skills-details">
+                            <summary><i class="fa-brands fa-node"></i></summary>
+                            <p>Node.js</p>
+                        </details>
+                    </div>
+                    <div id="skills-fa-container">
+                        <details class="skills-details">
+                            <summary><i class="fa-brands fa-git"></i></summary>
+                            <p>Git</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2 id="contact">Contact</h2>
+            <p></p>
+            <div>
+                <!--Set up Mailing-->
+                <a href="https://github.com/jan-s-baer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/ef56e8cb8c.js" crossorigin="anonymous"></script>
+</body>
+</html>
